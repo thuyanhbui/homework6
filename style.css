@@ -1,0 +1,100 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+}
+
+.title {
+  width: 180px;
+  height: 100%;
+  background-color: rgba(221, 28, 28, 0.856);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+.title_end {
+  justify-content: flex-end;
+}
+.title_start {
+  justify-content: flex-start;
+}
+.number {
+  width: 64px;
+  background-color: rgb(238, 111, 102);
+}
+.space {
+  width: 256px;
+  height: 100%;
+  background-color: rgb(235, 224, 223);
+}
+.title2 {
+  background-color: rgba(9, 142, 204, 0.856);
+}
+.number2 {
+  width: 160px;
+  background-color: rgb(164, 200, 233);
+}
+.space2 {
+  width: 160px;
+  background-color: rgb(235, 224, 223);
+}
+.title3 {
+  background-color: rgb(27, 170, 27);
+}
+.number3 {
+  width: 240px;
+  background-color: rgb(167, 243, 173);
+}
+.space3 {
+  width: 80px;
+  background-color: rgb(235, 224, 223);
+}
+.title4 {
+  background-color: rgb(180, 177, 6);
+}
+.number4 {
+  width: 80px;
+  background-color: rgb(177, 182, 131);
+}
+.space4 {
+  width: 240px;
+  background-color: rgb(235, 224, 223);
+}
+.title5 {
+  background-color: rgb(161, 10, 221);
+}
+.number5 {
+  width: 140px;
+  background-color: rgb(217, 159, 247);
+}
+.space5 {
+  width: 180px;
+  background-color: rgb(235, 224, 223);
+}
+.title6 {
+  background-color: rgb(241, 9, 106);
+}
+.number6 {
+  width: 240px;
+  background-color: rgb(247, 159, 232);
+}
+.space6 {
+  width: 80px;
+  background-color: rgb(235, 224, 223);
+}
+.title7 {
+  background-color: rgb(18, 29, 179);
+}
+.number7 {
+  width: 100px;
+  background-color: rgb(159, 175, 247);
+}
+.space7 {
+  width: 220px;
+  background-color: rgb(235, 224, 223);
+}
