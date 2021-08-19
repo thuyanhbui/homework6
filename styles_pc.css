@@ -180,7 +180,7 @@
             display: flex;
             flex-direction: column;
             width: 100%vw;
-            padding: 2px 30px;
+            padding: 2px 30px 30px;
             width: 100%vw;
             height: 100%vh;
         }   
@@ -193,10 +193,12 @@
             background-color: #FFFFFF;
             padding-top: 100px;
         }
-
-        /* .profile {
-            width: 100%vw;
-            /* padding: 0px 40px 30px 30px; */
+        @media screen and (max-width:1023px){
+        .left_content{
+            padding-top: 50px;
+        }   
+        } 
+        
 
 
         .profile_right {
@@ -208,8 +210,34 @@
                padding: 0 15px;
         }   
         }
-        .profile_images{
 
+         .profile{
+            margin: 0px 30px;
+
+        }
+        @media screen and (max-width:1200px){
+        .profile{
+            margin: 0px 10px;
+        }  
+        } 
+
+        .profile_1{
+
+        }   
+        @media screen and (max-width:1023px){
+        .profile_1{
+                display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        font-size: 150%;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        }  
+         } 
+
+        .profile_images{
+            padding-right: 30px;
         }
         .profile_images >img{
             max-width: 300px;
@@ -238,15 +266,9 @@
         .subprofile {
             padding-bottom: 30px;
         }
-        .profile{
-            margin: 0px 30px;
-
-        }
-        @media screen and (max-width:1200px){
-        .profile{
-            margin: 0px 10px;
-        }   
-        }
+       
+        /* @media screen and (max-width:1200px){
+        } */
         .line_bar {
             background-color: #4D1684;
             border-radius: 4px;
@@ -444,7 +466,11 @@
             background-color: #F8F9FB;
             padding-top: 100px;
         }
-
+        @media screen and (max-width:1023px){
+        .right_content{
+            padding-top: 50px;
+        }   
+        } 
         .li_work {
             position: relative;
         }
@@ -462,8 +488,20 @@
         .portfolio_text {
             display: flex;
             width: 100%;
-            height: 60px;
             margin: 30px 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+         @media screen and (max-width:1023px){
+        .portfolio_text{
+                   display: flex;
+            width: 100%;
+            margin: 30px 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }   
         }
 
         .allbox {
@@ -496,15 +534,48 @@
             display: flex;
             width: 100%;
             margin: 25px 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
+
+        
+        
+
         .portfolio_row img{ 
             max-width: 500px;
             width: 100%;}
         
         .portfolio_row1 {
-            padding-right: 30px;
+            padding: 0 30px 30px 0px;
+            flex: 28%;
+            max-width: 28%;
         }
-        
+        @media screen and (max-width:1023px){
+        .portfolio_row1{
+               padding: 0px 15px 30px 15px;
+                flex: 28%;
+                max-width: 28%;
+                justify-content: center;
+                display: flex;
+            width: 100%;
+          flex-direction: row;
+            flex-wrap: wrap;
+            } 
+        }
+        @media screen and (max-width:767px){
+        .portfolio_row1{
+               padding: 0px 15px 30px 15px;
+                flex: 28%;
+                max-width: 50%;
+                justify-content: center;
+                display: flex;
+            width: 100%;
+          flex-direction: row;
+            flex-wrap: wrap;
+            } 
+        }
+       
         .portfolio_row1:hover {
             opacity: 0.6
         }
