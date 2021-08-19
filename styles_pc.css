@@ -4,7 +4,7 @@
             font-family: 'Roboto', sans-serif;
             font-size: 15px;
             margin: 0;
-            width: 1366px;
+            width: 100vw;
         }
 
         h1 {
@@ -25,11 +25,8 @@
         }
 
         h3 {
-            /* font-weight: 700; */
             margin: 50px 0 50px;
             font-family: 'Montserrat', sans-serif;
-
-
         }
 
         h3>span {
@@ -49,12 +46,11 @@
         }
 
         .container {
-
             width: 100%vw;
             height: 100%vh;
         }
 
-
+/* header */
         .header {
             display: flex;
             flex-direction: row;
@@ -128,14 +124,12 @@
             background-color: #ad75e6;
         }
 
-        /* content */
+ /* content */
         .content {
             display: flex;
             flex-direction: row;
             width: 100%vw;
             height: 100%vh;
-            /* padding-left: 30px; */
-
         }
 
         .left_content {
@@ -185,7 +179,6 @@
         }
 
         .aboutme_number {
-
             display: flex;
             justify-items: center;
             align-items: center;
@@ -197,13 +190,11 @@
         .number3 {
             display: flex;
             flex: 1;
-
         }
 
         .number3_text1 {
             display: flex;
             flex: 1;
-
         }
 
         .number3_text1_end {
@@ -328,8 +319,6 @@
         .education {
             display: flex;
             display: flex;
-
-
         }
 
         .education_left {
@@ -343,7 +332,6 @@
             display: flex;
             justify-content: center;
             font-size: 25px;
-
         }
 
         .line_education {
@@ -359,10 +347,8 @@
         }
 
         .education_right {
-
             margin-top: -50px;
             padding-left: 15px;
-
         }
 
         .right_content {
@@ -374,7 +360,6 @@
 
         .li_work {
             position: relative;
-
         }
 
         .li_work::before {
@@ -403,7 +388,6 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-
         }
 
         .all {
@@ -421,9 +405,8 @@
             color: #6E14C9;
         }
 
-        /* footer */
+ /* footer */
         .footer {
-
 
             height: 60px;
             background-color: #6E14C9;
@@ -433,22 +416,19 @@
         .p_footer {
             color: #ba97dd;
             font-size: 16px;
-            "
-font-weight: 900;
+            font-weight: 900;
         }
 
         .portfolio_row {
             display: flex;
             width: 100%;
             margin: 25px 0;
-
         }
 
         .portfolio_row1 {
-
             padding-right: 30px;
         }
-
+        
         .portfolio_row1:hover {
             opacity: 0.6
         }
